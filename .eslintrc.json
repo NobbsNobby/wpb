@@ -1,0 +1,31 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true
+  },
+  "extends": [
+    "airbnb-base",
+    "plugin:flowtype/recommended"
+  ],
+  "plugins": [
+    "flowtype"
+  ],
+  "rules": {
+    "indent": ["error", 4],
+    "linebreak-style": ["error", "unix"],
+    "quotes": ["error", "single"],
+    "semi": ["error", "always"],
+    "max-len": [1, 120, 2],
+    "no-console": "off",
+    "import/no-unresolved": "off",
+    "no-template-curly-in-string": "error",
+    "block-scoped-var": "error",
+    "max-classes-per-file": "error",
+    "no-multi-spaces": "warn",
+    "array-bracket-spacing": ["warn",  "always"],
+    "key-spacing": ["error", { "align": "value" }],
+    "arrow-parens": ["error", "always"],
+    "arrow-spacing": ["error", { "before": true, "after": true }],
+    "object-curly-spacing": ["error", "always"]
+  }
+}
