@@ -1,9 +1,6 @@
 {
   "name": "webpack-html",
   "version": "1.0.1",
-  "dependencies": {
-    "normalize.css": "^8.0.1"
-  },
   "scripts": {
     "start": "webpack-dev-server --open --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js"
@@ -43,6 +40,10 @@
     "webpack": "^4.25.1",
     "webpack-cli": "^3.1.2",
     "webpack-dev-server": "^3.1.10",
-    "webpack-merge": "^4.1.4"
+    "webpack-merge": "^4.1.4",
+    "postcss-nested": "^4.1.1"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
   }
 }
